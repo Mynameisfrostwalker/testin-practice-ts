@@ -5,4 +5,6 @@ test("capitalizes first letter (1)", () => {
     expect(capitalize("beep")).toBe("Beep");
 })
 
-
+test("capitalizes first letter (2)", () => {
+    expect(capitalize("cool")).toBe("Cool");
+})
