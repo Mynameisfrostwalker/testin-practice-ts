@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES2017",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "resolveJsonModule": true
+  },
+  "include": ["scripts", "test"],
+  "exclude": ["node_modules"]
+}
