@@ -8,3 +8,7 @@ test("capitalizes first letter (1)", () => {
 test("capitalizes first letter (2)", () => {
     expect(capitalize("cool")).toBe("Cool");
 })
+
+test("works when first character is not a letter", () => {
+    expect(capitalize(";nice move")).toBe(";Nice move");
+})
