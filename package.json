@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "watch": "tsc -watch"
+    "watch": "tsc -watch",
+    "testWatch": "jest --watch *.ts"
   },
   "repository": {
     "type": "git",
